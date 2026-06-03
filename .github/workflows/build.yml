@@ -19,5 +19,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=psorokovij-stack
+            -Dsonar.projectKey=psorokovij-stack_node-app-psorokovij-stack
             -Dsonar.organization=psorokovij-stack
